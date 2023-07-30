@@ -1,0 +1,196 @@
+{
+    "elements": [
+        {
+            "id": "gloverandglover_difficultbossa_job",
+            "slots": [
+                {
+                    "id": "Diligence",
+                    "label": "Diligence",
+                    "actionid": "work",
+                    "required": {
+                        "reason": 1
+                    },
+                    "description": "A routine is paramount- only with reason can I repeat this job."
+                },
+                {
+                    "id": "Diligence2",
+                    "label": "Diligence",
+                    "actionid": "work",
+                    "required": {
+                        "reason": 1
+                    },
+                    "description": "A routine is paramount- only with reason can I repeat this job."
+                }
+            ]
+        },
+        {
+            "id": "gloverandgloverseniorjob",
+            "slots": [
+                {
+                    "id": "Devotion",
+                    "label": "Devotion",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "work",
+                    "description": "My position is demanding. I must concentrate my mind."
+                },
+                {
+                    "id": "Diligence",
+                    "label": "Diligence",
+                    "actionid": "work",
+                    "required": {
+                        "reason": 1
+                    },
+                    "description": "A routine is paramount- only with reason can I repeat this job."
+                }
+            ]
+        },
+        {
+            "id": "gloverandglovertopjob",
+            "slots": [
+                {
+                    "id": "Diligence",
+                    "label": "Diligence",
+                    "actionid": "work",
+                    "required": {
+                        "reason": 1
+                    },
+                    "description": "A routine is paramount- only with reason can I repeat this job."
+                }
+            ]
+        },
+        {
+            "id": "gloverandglovertopjob_tainted",
+            "slots": [
+                {
+                    "id": "Diligence",
+                    "label": "Diligence",
+                    "actionid": "work",
+                    "required": {
+                        "reason": 1
+                    },
+                    "description": "A routine is paramount- only with reason can I repeat this job."
+                }
+            ]
+        },
+        {
+            "id": "institutephysicianjob",
+            "slots": [
+                {
+                    "id": "Diligence",
+                    "label": "Diligence",
+                    "actionid": "work",
+                    "required": {
+                        "reason": 1
+                    },
+                    "description": "A routine is paramount- only with reason can I repeat this job."
+                }
+            ]
+        },
+        {
+            "id": "locationbookdealer",
+            "slots": [
+                {
+                    "id": "Cost",
+                    "label": "Cost",
+                    "required": {
+                        "funds": 1
+                    },
+                    "consumes": false,
+                    "actionid": "explore"
+                },
+                {
+                    "id": "Cost2",
+                    "label": "Cost",
+                    "required": {
+                        "funds": 1
+                    },
+                    "consumes": false,
+                    "actionid": "explore"
+                },{
+                    "id": "Cost3",
+                    "label": "Cost",
+                    "required": {
+                        "funds": 1
+                    },
+                    "consumes": false,
+                    "actionid": "explore"
+                },{
+                    "id": "Cost4",
+                    "label": "Cost",
+                    "required": {
+                        "funds": 1
+                    },
+                    "consumes": false,
+                    "actionid": "explore"
+                }
+            ]
+        },
+        {
+            "id": "skillhealtha",
+            "slots$append": [
+                {
+                    "id": "Commitment",
+                    "actionid": "work",
+                    "description": "I must commit more energy to start a routine.",
+                    "required": {
+                        "health": 1
+                    }
+                }
+            ]
+        },
+        {
+            "id": "skillhealthb",
+            "slots$append": [
+                {
+                    "id": "Commitment",
+                    "actionid": "work",
+                    "description": "I must commit more energy to start a routine.",
+                    "required": {
+                        "health": 1
+                    }
+                }
+            ]
+        },
+        {
+            "id": "skillhealthc",
+            "slots$append": [
+                {
+                    "id": "Commitment",
+                    "actionid": "work",
+                    "description": "I must commit more energy to start a routine.",
+                    "required": {
+                        "health": 1
+                    }
+                }
+            ]
+        },
+        {
+            "id": "skillhealthd_strength",
+            "slots$append": [
+                {
+                    "id": "Commitment",
+                    "actionid": "work",
+                    "description": "I must commit more energy to start a routine.",
+                    "required": {
+                        "health": 1
+                    }
+                }
+            ]
+        },
+        {
+            "id": "skillhealthd_grace",
+            "slots$append": [
+                {
+                    "id": "Commitment",
+                    "actionid": "work",
+                    "description": "I must commit more energy to start a routine.",
+                    "required": {
+                        "health": 1
+                    }
+                }
+            ]
+        }
+    ]
+}
