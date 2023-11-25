@@ -772,6 +772,17 @@
             "deckeffects": {
                 "commontomes": 1
             },
+			"slots": [
+                {
+                    "id": "money",
+                    "label": "More Funds?",
+                    "required": {
+                        "funds": 1
+                    },
+                    "forbidden": {},
+                    "description": "Perhaps there is more to find..."
+                }
+            ],
             "startdescription": "It takes time to sort the gold from the dross, the wheat from the chaff, the blood from the water. If I buy enough books, I'll find something interesting.",
             "description": "I've found something noteworthy.",
             "warmup": 30,
@@ -1107,13 +1118,6 @@
             "id": "do_workhealthskillb_loop",
             "label": "Unskilled Labour: Arms of Iron [Loop]",
             "actionid": "work",
-            "requirements": {
-                "health": 2,
-                "healthskill": 2,
-                "ritual": -1,
-                "job": -1,
-                "benefactor": -1
-            },
             "effects": {
                 "funds": 1,
                 "vitality": 1
