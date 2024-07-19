@@ -1267,7 +1267,7 @@
             "linked":[
                 {
                     "id": "workhealthinjury",
-                    "chance": 30
+                    "chance": 10
                 },
                 {
                     "id": "do_stop_passion"
