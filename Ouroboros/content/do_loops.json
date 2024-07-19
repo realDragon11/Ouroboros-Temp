@@ -1387,6 +1387,27 @@
                     "id":"do_workhealth_loop_tick"
                 }
             ]
-        }
+        },
+		{
+            "id": "do_workhealthinjury_with_fatigue",
+			"$extends": ["workhealthinjury"],
+            "requirements$add": {
+				"fatigue": 1
+			},
+            "effects$add": {
+                "fatigue": -1,
+				"health": 0
+            }
+        },
+		{
+            "id": "workhealthinjury",
+			"alt$prepend":[
+				{
+                    "id": "do_workhealthinjury_with_fatigue",
+                    "chance": 100
+                }
+			]
+		}
+		
     ]
 }

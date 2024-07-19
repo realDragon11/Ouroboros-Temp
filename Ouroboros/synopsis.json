@@ -1,7 +1,7 @@
 {
     "name": "Ouroboros [Looping Jobs 2023]",
     "author": "dragon",
-    "version": "0.3.0",
+    "version": "0.3.2",
 
     "description": "Adds looping jobs.",
     "description_long": "Loopable Jobs:\n*Glover and Glover (unless you are climbing the ranks- ambition prevents you from settling in. Will also stop every time your job situation changes.)\n*Manual Labor\n*Physican Job\n*Multiple Books at Morlands (up to 4 at a time)\n\nLooping requires reason or health, depending on the job- since normally you'd have to wait for them on cooldown.\nCredit to Kvòthe for original mod and the one altered image in the mod."
